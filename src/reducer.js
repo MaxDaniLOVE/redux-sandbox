@@ -1,4 +1,4 @@
-export const reducer = (state = 10, action) => {
+export const reducer = (state = 0, action) => {
   switch (action.type) {
     case 'INC':
       return state + 1;

@@ -34,10 +34,7 @@ const mapDispatchToProps = (dispatch) => {
   return{
     inc,
     dec,
-    rnd: () => {
-      const payload = Math.ceil(Math.random() * 10);
-     rnd(payload)
-    },
+    rnd,
   }
 }
 
